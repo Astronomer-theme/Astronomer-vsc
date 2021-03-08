@@ -1,0 +1,32 @@
+{
+    "name": "moonkai",
+    "displayName": "MoonKai",
+    "description": "A minimal theme based in dark soft colors",
+    "publisher": "halcolo",
+    "icon": "assets/img/Moonkai_logo.png",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "author": {
+        "name": "Juan Diego Alfonso Ocampo",
+        "email": "juandiego.alfonsoocampo@gmail.com",
+        "url": "https://www.linkedin.com/in/jdalfons/"
+    },
+    "repository": {
+        "url": "https://github.com/halcolo/MoonKai",
+        "type": "git"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "MoonKai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/MoonKai-color-theme.json"
+            }
+        ]
+    }
+}
