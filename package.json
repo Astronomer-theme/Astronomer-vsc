@@ -4,10 +4,16 @@
     "description": "A minimal theme based in dark soft colors",
     "publisher": "halcolo",
     "icon": "assets/img/Moonkai_logo.png",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "engines": {
         "vscode": "^1.54.0"
     },
+    "keywords": [
+        "unniverse",
+        "theme",
+        "light",
+        "dark"
+    ],
     "author": {
         "name": "Juan Diego Alfonso Ocampo",
         "email": "juandiego.alfonsoocampo@gmail.com",
@@ -25,7 +31,7 @@
             {
                 "label": "MoonKai",
                 "uiTheme": "vs-dark",
-                "path": "./themes/MoonKai-color-theme.json"
+                "path": "./themes/moon.json"
             }
         ]
     }

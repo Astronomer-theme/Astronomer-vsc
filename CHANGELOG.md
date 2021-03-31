@@ -1,9 +1,11 @@
-# Change Log
+## 1.1.0
 
-All notable changes to the "moonkai" extension will be documented in this file.
+- Implement new color for editor a based in github color editor
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 1.0.0
 
-## [Unreleased]
+- Implemented new color for all theme schema based in blue tones.
+
+## 0.1.0
 
 - Initial release
