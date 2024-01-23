@@ -1,10 +1,13 @@
 ![alt](assets/img/Moonkai_banner.jpg)
+# Overview
 
+This project aims to create a soft and interesting theme, and welcomes collaboration. Whether it's your first time contributing to a project or you're looking to improve the existing theme, you are invited to be a part of it.
 
+# How to Contribute with this Repository
+Read the [contributing guidelines](./.github/CONTRIBUTING.md) before create a contribution
 
-## ✍️ Author social networks <a name = "authors"></a>
-### Juan Diego Alfonso
-- [@jdalfonso](https://www.linkedin.com/in/jdalfons/) - Creator of MoonKay
-- [@halcolo](https://github.com/halcolo) - Creator of MoonKay
+## License
 
-**Enjoy**
+[MIT License](./LICENSE)
+
+**Enjoy the journey to the Moon!**
