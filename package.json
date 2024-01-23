@@ -1,38 +1,50 @@
 {
-    "name": "moonkai",
-    "displayName": "MoonKai",
-    "description": "A minimal theme based in dark soft colors",
-    "publisher": "halcolo",
-    "icon": "assets/img/Moonkai_logo.png",
-    "version": "1.1.1",
-    "engines": {
-        "vscode": "^1.54.0"
-    },
-    "keywords": [
-        "unniverse",
-        "theme",
-        "light",
-        "dark"
-    ],
-    "author": {
-        "name": "Juan Diego Alfonso Ocampo",
-        "email": "juandiego.alfonsoocampo@gmail.com",
-        "url": "https://www.linkedin.com/in/jdalfons/"
-    },
-    "repository": {
-        "url": "https://github.com/halcolo/MoonKai",
-        "type": "git"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "MoonKai",
-                "uiTheme": "vs-dark",
-                "path": "./themes/moon.json"
-            }
-        ]
-    }
+  "name": "moonkai",
+  "displayName": "MoonKai",
+  "description": "A minimal theme based in dark soft colors",
+  "publisher": "halcolo",
+  "icon": "assets/img/Moonkai_logo.png",
+  "version": "1.1.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "keywords": [
+    "unniverse",
+    "theme",
+    "light",
+    "dark"
+  ],
+  "repository": {
+    "url": "git+https://github.com/jdalfons/MoonKai.git",
+    "type": "git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "MoonKai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moon.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "require": "^0.4.4",
+    "js-yaml": "^4.1.0",
+    "prettier": "^3.0.0",
+    "tinycolor2": "^1.6.0",
+    "vsce": "^2.15.0"
+  },
+  "bugs": {
+    "url": "https://github.com/jdalfons/MoonKai/issues"
+  },
+  "homepage": "https://github.com/jdalfons/MoonKai#readme",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
