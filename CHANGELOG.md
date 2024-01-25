@@ -1,3 +1,6 @@
+## 1.2.0
+- Is defined colors and new name for the old MoonKai theme extension
+
 ## 1.1.0
 
 - Implement new color for editor a based in github color editor

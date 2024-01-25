@@ -1,32 +1,33 @@
 $schema: vscode://schemas/color-theme
-name: MoonKai
+name: Astronomer
 type: dark
 author: Juan Alfonso
-semanticClass: theme.moonkai
+semanticClass: theme.astronomer
 semanticHighlighting: true
-moon:
+astronomer:
   base:
-    - &BG        '#1E5F7B'
-    - &FG        '#FFFFFF'
-    - &SELECTION '#44475A'
-    - &COMMENT   '#D7A31A7E'
-    - &CYAN      '#d7a31a'
-    - &GREEN     '#00b389'
-    - &ORANGE    '#FFB86C'
-    - &PINK      '#FF79C6'
+    - &BG        '#303048'
+    - &FG        '#D9EBF1'
+    - &SELECTION '#1F5470'
+    - &COMMENT   '#839199'
+    - &CYAN      '#64ABBB'
+    - &GREEN     '#88CC67'
+    - &ORANGE    '#A0713E'
+    - &PINK      '#DC6BAD'
     - &PURPLE    '#BD93F9'
-    - &RED       '#FF5555'
-    - &YELLOW    '#F1FA8C'
+    - &RED       '#F2647C'
+    - &YELLOW    '#EDCB79'
   ansi:
+  # Check ansi colors and purpose new ones for terminal.
     - &COLOR0        '#2C2423'
-    - &COLOR1        '#f557A0'
+    - &COLOR1        '#F557A0'
     - &COLOR2        '#A9EE55'
     - &COLOR3        '#f5A255'
     - &COLOR4        '#5EA2EC'
     - &COLOR5        '#A957EC'
     - &COLOR6        '#5EEEA0'
     - &COLOR7        '#F8F8F2'
-    - &COLOR8        '#21222C'
+    - &COLOR8        '#1E5F7B'
     - &COLOR9        '#F579B2'
     - &COLOR10       '#BBEE78'
     - &COLOR11       '#F5B378'
@@ -35,8 +36,7 @@ moon:
     - &COLOR14       '#81EEB2'
     - &COLOR15       '#F5EEEC'
   brightOther:
-    # Temporary (awaiting fix)
-    - &TEMP_QUOTES          '#E9F284'
+    - &TEMP_QUOTES          '#CAD73E'
     - &TEMP_PROPERTY_QUOTES '#8BE9FE'
   other:
     - &LineHighlight '#44475A75'
@@ -45,9 +45,9 @@ moon:
     - &TAB_DROP_BG   '#44475A70'
     # UI Variants
     - &BGLighter     '#424450'
-    - &BGLight       '#343746' # HSV (230   , 25.71, 27.45)
-    - &BGDark        '#21222C' # HSV (234.55, 25   , 17.25)
-    - &BGDarker      '#191A21' # HSV (234.55, 25   , 13   )
+    - &BGLight       '#343746'
+    - &BGDark        '#2A2D3C' # OLD 232531
+    - &BGDarker      '#21222C' # OLD 21222C
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:
 
