@@ -1,10 +1,10 @@
 {
-  "name": "moonkai",
-  "displayName": "MoonKai",
+  "name": "astronomer",
+  "displayName": "Astronomer",
   "description": "A minimal theme based in dark soft colors",
   "publisher": "halcolo",
-  "icon": "assets/img/Moonkai_logo.png",
-  "version": "1.1.1",
+  "icon": "assets/img/Astronomer_logo.png",
+  "version": "1.2.1",
   "engines": {
     "vscode": "^1.54.0"
   },
@@ -15,7 +15,7 @@
     "dark"
   ],
   "repository": {
-    "url": "git+https://github.com/jdalfons/MoonKai.git",
+    "url": "git+https://github.com/jdalfons/Astronomer.git",
     "type": "git"
   },
   "categories": [
@@ -24,9 +24,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "MoonKai",
+        "label": "Astronomer",
         "uiTheme": "vs-dark",
-        "path": "./themes/moon.json"
+        "path": "./themes/astronomer.json"
       }
     ]
   },
@@ -38,9 +38,9 @@
     "vsce": "^2.15.0"
   },
   "bugs": {
-    "url": "https://github.com/jdalfons/MoonKai/issues"
+    "url": "https://github.com/jdalfons/Astronomer/issues"
   },
-  "homepage": "https://github.com/jdalfons/MoonKai#readme",
+  "homepage": "https://github.com/jdalfons/Astronomer#readme",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {

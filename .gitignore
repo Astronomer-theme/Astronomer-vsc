@@ -1,6 +1,11 @@
-*.vsix
+# MACBOK FILES
 .DS_Store
+
+# THEMES FOR VISUAL STUDIO CODE IGNOER
+*.vsix
 node_modules/
 /theme/
+
+# OTHER
 /tests/
 bin/

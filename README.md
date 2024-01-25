@@ -1,4 +1,4 @@
-![alt](assets/img/Moonkai_banner.jpg)
+![alt](assets/img/Astronomer_banner.jpg)
 # Overview
 
 This project aims to create a soft and interesting theme, and welcomes collaboration. Whether it's your first time contributing to a project or you're looking to improve the existing theme, you are invited to be a part of it.
@@ -10,4 +10,4 @@ Read the [contributing guidelines](./.github/CONTRIBUTING.md) before create a co
 
 [MIT License](./LICENSE)
 
-**Enjoy the journey to the Moon!**
+**Enjoy the journey!**
