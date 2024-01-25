@@ -4,7 +4,7 @@
   "description": "A minimal theme based in dark soft colors",
   "publisher": "halcolo",
   "icon": "assets/img/Astronomer_logo.png",
-  "version": "1.1.1",
+  "version": "1.2.1",
   "engines": {
     "vscode": "^1.54.0"
   },

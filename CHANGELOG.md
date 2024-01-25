@@ -1,3 +1,7 @@
+## 1.2.1-Alpha
+
+- Improvement in Github actions and collaboration facilities.
+
 ## 1.2.0
 - Is defined colors and new name for the old MoonKai theme extension
 
