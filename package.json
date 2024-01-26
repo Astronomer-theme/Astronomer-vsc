@@ -3,6 +3,7 @@
   "displayName": "Astronomer",
   "description": "A minimal theme based in dark soft colors",
   "publisher": "halcolo",
+  "license": "MIT",
   "icon": "assets/img/astronomer_logo.png",
   "version": "1.2.1-Beta",
   "engines": {
@@ -10,19 +11,24 @@
   },
   "keywords": [
     "unniverse",
-    "Astronomy",
-    "theme",
-    "light",
     "dark",
+    "theme",
+    "color-theme",
     "VSCode",
     "Themes"
   ],
   "repository": {
-    "url": "git+https://github.com/jdalfons/astronomer-vsc.git",
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/jdalfons/astronomer-vsc.git"
+  },
+  "bugs": {
+      "url": "https://github.com/jdalfons/astronomer-vsc/issues"
   },
   "categories": [
     "Themes"
+  ],
+  "maintainers": [
+    "Juan D. Alfonso"
   ],
   "contributes": {
     "themes": [
@@ -33,12 +39,11 @@
       }
     ]
   },
-  "dependencies": {
-    "require": "^0.4.4",
+  "devDependencies": {
     "js-yaml": "^4.1.0",
     "prettier": "^3.0.0",
     "tinycolor2": "^1.6.0",
-    "@vscode/vsce": "^2.15.0"
+    "vsce": "^2.15.0"
   },
   "bugs": {
     "url": "https://github.com/jdalfons/Astronomer/issues"
@@ -47,7 +52,10 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "license": "ISC"
+    "build": "node ./scripts/build.js",
+    "lint": "node ./scripts/lint.js",
+    "package": "vsce package -o ./bin/dracula.vsix",
+    "vscode:prepublish": "npm run build",
+    "vsce-publish": "vsce publish"
+  }
 }
