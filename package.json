@@ -3,19 +3,22 @@
   "displayName": "Astronomer",
   "description": "A minimal theme based in dark soft colors",
   "publisher": "halcolo",
-  "icon": "assets/img/Astronomer_logo.png",
+  "icon": "assets/img/astronomer_logo.png",
   "version": "1.2.1",
   "engines": {
     "vscode": "^1.54.0"
   },
   "keywords": [
     "unniverse",
+    "Astronomy",
     "theme",
     "light",
-    "dark"
+    "dark",
+    "VSCode",
+    "Themes"
   ],
   "repository": {
-    "url": "git+https://github.com/jdalfons/Astronomer.git",
+    "url": "git+https://github.com/jdalfons/astronomer-vsc.git",
     "type": "git"
   },
   "categories": [
