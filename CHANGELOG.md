@@ -1,3 +1,7 @@
+## 1.2.1-Beta
+
+- Released first beta beta.
+
 ## 1.2.1-Alpha
 
 - Improvement in Github actions and collaboration facilities.
