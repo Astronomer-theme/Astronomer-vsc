@@ -1,6 +1,6 @@
 {
-  "name": "astronomer",
-  "displayName": "Astronomer",
+  "name": "astronomer theme",
+  "displayName": "Astronomer theme",
   "description": "A minimal theme based in dark soft colors",
   "publisher": "halcolo",
   "license": "MIT",
@@ -33,7 +33,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Astronomer",
+        "label": "astronomer-theme",
         "uiTheme": "vs-dark",
         "path": "./themes/astronomer.json"
       }
