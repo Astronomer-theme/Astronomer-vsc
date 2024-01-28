@@ -7,7 +7,7 @@
   "icon": "assets/img/astronomer_logo.png",
   "version": "1.2.1-Beta",
   "engines": {
-    "vscode": "^1.54.0"
+    "vscode": "^1.75.0"
   },
   "keywords": [
     "unniverse",
@@ -22,7 +22,7 @@
     "url": "https://github.com/jdalfons/astronomer-vsc.git"
   },
   "bugs": {
-      "url": "https://github.com/jdalfons/astronomer-vsc/issues"
+    "url": "https://github.com/jdalfons/Astronomer/issues"
   },
   "categories": [
     "Themes"
@@ -39,23 +39,18 @@
       }
     ]
   },
-  "devDependencies": {
-    "js-yaml": "^4.1.0",
-    "prettier": "^3.0.0",
-    "tinycolor2": "^1.6.0",
-    "vsce": "^2.15.0"
-  },
-  "bugs": {
-    "url": "https://github.com/jdalfons/Astronomer/issues"
-  },
   "homepage": "https://github.com/jdalfons/Astronomer#readme",
-  "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "build": "node ./scripts/build.js",
     "lint": "node ./scripts/lint.js",
     "package": "vsce package -o ./bin/astronomer.vsix",
     "vscode:prepublish": "npm run build",
     "vsce-publish": "vsce publish"
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.0",
+    "prettier": "^3.0.0",
+    "tinycolor2": "^1.6.0",
+    "vsce": "^2.15.0"
   }
 }
