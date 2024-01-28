@@ -1,3 +1,6 @@
+## 1.2.8
+- Released using with GH workflow and new logos implemented.
+
 ## 1.2.1-Beta
 
 - Released first beta beta.
