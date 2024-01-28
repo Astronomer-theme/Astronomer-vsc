@@ -1,6 +1,6 @@
 {
   "name": "astronomer-theme",
-  "displayName": "Astronomer",
+  "displayName": "Astronomer Theme",
   "description": "A minimal theme based in dark soft colors",
   "publisher": "halcolo",
   "license": "MIT",
@@ -22,7 +22,7 @@
     "url": "https://github.com/jdalfons/astronomer-vsc.git"
   },
   "bugs": {
-    "url": "https://github.com/jdalfons/Astronomer/issues"
+    "url": "https://github.com/jdalfons/astronomer-vsc/issues"
   },
   "categories": [
     "Themes"
@@ -39,7 +39,7 @@
       }
     ]
   },
-  "homepage": "https://github.com/jdalfons/Astronomer#readme",
+  "homepage": "https://github.com/jdalfons/astronomer-vsc#readme",
   "scripts": {
     "build": "node ./scripts/build.js",
     "lint": "node ./scripts/lint.js",
