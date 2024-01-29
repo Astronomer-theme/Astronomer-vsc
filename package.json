@@ -33,9 +33,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "astronomer_theme",
+        "label": "astronomer",
         "uiTheme": "vs-dark",
-        "path": "./themes/astronomer.json"
+        "path": "./theme/astronomer-soft.json"
+      },
+      {
+        "label": "astronomer-soft",
+        "uiTheme": "vs-dark",
+        "path": "./theme/astronomer.json"
       }
     ]
   },
