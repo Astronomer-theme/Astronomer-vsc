@@ -1,3 +1,6 @@
+## 1.2.9
+- Error fixes workflow deploys
+
 ## 1.2.8
 - Released using with GH workflow and new logos implemented.
 
